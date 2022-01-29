@@ -14,5 +14,6 @@ job('MahNodeJs example') {
     }
     steps {
         shell("npm install")
+        shell("echo I'm done duede")
     }
 }
