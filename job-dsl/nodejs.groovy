@@ -1,6 +1,6 @@
 job('MahNodeJs example') {
     scm {
-        git('https://github.com/mboininc/jenkins-course.git') {  node -> // is hudson.plugins.git.GitSCM
+        git('https://github.com/mboininc/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
             node / gitConfigEmail('jenkins-dsl@newtech.academy')
         }
